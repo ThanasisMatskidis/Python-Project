@@ -1,9 +1,5 @@
-import Lagrange as Lg
-import Splines as Sp
-import LeastSquares as LS
-import numpy as np
+import Trapezoid as Tr
+import Simpson as Si
 
-a = 0
-print(Lg.polynomial(a))
-print(Sp.splines(a))
-print(LS.L_Squares(a))
+print(Tr.trapezoid())
+print(Si.simpson())
